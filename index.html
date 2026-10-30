@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claquete · notícias de cinema, TV e séries</title>
+<meta name="description" content="Agregador de notícias, vídeos e podcasts sobre cinema, TV e séries, com tradução automática.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#1c0a0e;--panel:#2b1016;--line:#4a2530;--paper:#f2e9dc;--mute:#b9a69f;--gold:#f5c26b;
+ --serif:"Fraunces",Georgia,serif;--sans:"Instrument Sans",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--paper);font:400 16px/1.5 var(--sans);padding-bottom:90px}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+header{position:sticky;top:0;z-index:20;background:rgba(28,10,14,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{max-width:1240px;margin:auto;padding:14px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.logo{font:800 28px/1 var(--serif);letter-spacing:-.02em}
+.logo i{font-style:normal;color:var(--gold)}
+nav{display:flex;gap:6px;flex-wrap:wrap;flex:1}
+nav button{background:none;border:1px solid transparent;color:var(--mute);font:500 14px var(--sans);padding:7px 14px;border-radius:99px;cursor:pointer}
+nav button:hover{color:var(--paper)}
+nav button[aria-pressed=true]{background:var(--gold);color:#2a1700}
+input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--paper);border-radius:99px;padding:8px 16px;font:inherit;width:220px;max-width:100%}
+main{max-width:1240px;margin:auto;padding:24px 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px}
+.card{display:flex;flex-direction:column;background:var(--panel);border-radius:6px;overflow:hidden;border:1px solid var(--line);transition:border-color .2s}
+.card:hover{border-color:var(--gold)}
+.thumb{aspect-ratio:16/9;background:linear-gradient(135deg,#3b1620,#1c0a0e);position:relative;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.play{position:absolute;inset:auto 12px 12px auto;width:46px;height:46px;border-radius:50%;background:var(--gold);color:#2a1700;border:0;font-size:18px;cursor:pointer}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.meta{font-size:13px;color:var(--mute);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.tag{border:1px solid var(--gold);color:var(--gold);border-radius:3px;padding:0 6px;font-size:12px}
+.card h2{font:600 19px/1.25 var(--serif)}
+.card p{font-size:14.5px;color:#d8c8bd;max-width:62ch}
+.foot{margin-top:auto;display:flex;justify-content:space-between;font-size:13px}
+.foot button{background:none;border:0;color:var(--gold);cursor:pointer;font:inherit;padding:0}
+.lead{grid-column:1/-1;display:grid;grid-template-columns:1.5fr 1fr;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:var(--panel)}
+.lead .thumb{aspect-ratio:auto;min-height:340px}
+.lead .body{padding:28px;justify-content:center}
+.lead h2{font:800 clamp(26px,3.4vw,42px)/1.1 var(--serif);letter-spacing:-.01em}
+.lead p{font-size:17px}
+@media(max-width:760px){.lead{grid-template-columns:1fr}.lead .thumb{min-height:200px}}
+.empty{padding:60px 0;text-align:center;color:var(--mute)}
+dialog{border:0;background:#000;padding:0;width:min(960px,94vw);border-radius:6px}
+dialog::backdrop{background:rgba(0,0,0,.8)}
+dialog iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
+dialog form{position:absolute;right:8px;top:8px}
+dialog button{background:var(--gold);border:0;border-radius:50%;width:34px;height:34px;cursor:pointer}
+#player{position:fixed;inset:auto 0 0 0;background:var(--panel);border-top:1px solid var(--gold);padding:10px 20px;display:none;gap:16px;align-items:center;z-index:30}
+#player.on{display:flex}
+#player div{flex:0 1 320px;font-size:14px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#player audio{flex:1;min-width:0}
+footer{max-width:1240px;margin:20px auto;padding:0 20px;color:var(--mute);font-size:13px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <a class="logo" href="./">Claquete<i>.</i></a>
+  <nav id="tabs" aria-label="Filtrar por tipo"></nav>
+  <input id="q" type="search" placeholder="Buscar títulos, filmes, séries" aria-label="Buscar">
+</div></header>
+<main><div id="grid" class="grid"></div></main>
+<footer id="foot"></footer>
+<dialog id="dlg"><form method="dialog"><button aria-label="Fechar">✕</button></form><iframe id="yt" allowfullscreen allow="autoplay; encrypted-media; picture-in-picture"></iframe></dialog>
+<div id="player"><div id="ptitle"></div><audio id="audio" controls></audio></div>
+<script>
+const TABS=[["all","Tudo"],["cinema","Cinema"],["series","Séries"],["tv","TV"],["video","Vídeos"],["podcast","Podcasts"]];
+const $=s=>document.querySelector(s);
+let items=[],tab="all",term="";
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const ago=iso=>{const m=(Date.now()-new Date(iso))/6e4;
+  if(m<60)return`há ${Math.max(1,~~m)} min`;if(m<1440)return`há ${~~(m/60)} h`;if(m<10080)return`há ${~~(m/1440)} d`;
+  return new Date(iso).toLocaleDateString("pt-BR",{day:"2-digit",month:"short"})};
+const LABEL={cinema:"Cinema",series:"Séries",tv:"TV",geral:"Geral"};
+
+$("#tabs").innerHTML=TABS.map(([k,l])=>`<button data-k="${k}" aria-pressed="${k==="all"}">${l}</button>`).join("");
+$("#tabs").onclick=e=>{const b=e.target.closest("button");if(!b)return;tab=b.dataset.k;
+  document.querySelectorAll("#tabs button").forEach(x=>x.setAttribute("aria-pressed",x===b));render()};
+$("#q").oninput=e=>{term=e.target.value.toLowerCase();render()};
+
+function match(i){
+  if(tab==="video"&&i.kind!=="video")return false;
+  if(tab==="podcast"&&i.kind!=="podcast")return false;
+  if(["cinema","series","tv"].includes(tab)&&i.category!==tab)return false;
+  return !term||(i.title+" "+(i.title_pt||"")+" "+i.summary+" "+i.source).toLowerCase().includes(term)}
+
+function card(i,lead){
+  const tr=!!i.title_pt, kind=i.kind==="video"?"Vídeo":i.kind==="podcast"?"Podcast":LABEL[i.category];
+  const act=i.kind==="video"&&i.video_id?`<button class="play" data-yt="${esc(i.video_id)}" aria-label="Assistir vídeo">▶</button>`
+    :i.kind==="podcast"?`<button class="play" data-audio="${esc(i.audio)}" data-t="${esc(i.title_pt||i.title)}" aria-label="Ouvir podcast">▶</button>`:"";
+  return`<article class="card ${lead?"lead":""}" data-id="${i.id}">
+   <div class="thumb">${i.image?`<img src="${esc(i.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}${act}</div>
+   <div class="body">
+    <div class="meta"><span class="tag">${kind}</span><span>${esc(i.source)}</span><span>${ago(i.published)}</span></div>
+    <h2><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title_pt||i.title)}</a></h2>
+    <p>${esc(i.summary_pt||i.summary)}</p>
+    <div class="foot"><a href="${esc(i.link)}" target="_blank" rel="noopener">Ler na fonte</a>
+    ${tr?`<button data-tr aria-pressed="true">Traduzido de ${i.lang.toUpperCase()} · ver original</button>`:""}</div>
+   </div></article>`}
+
+function render(){
+  const list=items.filter(match);
+  $("#grid").innerHTML=list.length?list.map((i,n)=>card(i,n===0&&tab==="all"&&i.image&&i.kind==="news")).join("")
+   :`<div class="empty" style="grid-column:1/-1">Nada por aqui ainda. Rode a ação “Atualizar notícias” no GitHub ou mude o filtro.</div>`}
+
+$("#grid").onclick=e=>{
+  const y=e.target.closest("[data-yt]");
+  if(y){$("#yt").src=`https://www.youtube-nocookie.com/embed/${y.dataset.yt}?autoplay=1`;$("#dlg").showModal();return}
+  const a=e.target.closest("[data-audio]");
+  if(a){$("#audio").src=a.dataset.audio;$("#ptitle").textContent="▶ "+a.dataset.t;$("#player").classList.add("on");$("#audio").play();return}
+  const t=e.target.closest("[data-tr]");
+  if(t){const c=t.closest(".card"),i=items.find(x=>x.id===c.dataset.id),on=t.getAttribute("aria-pressed")==="true";
+    c.querySelector("h2 a").textContent=on?i.title:i.title_pt;
+    c.querySelector("p").textContent=on?i.summary:i.summary_pt;
+    t.setAttribute("aria-pressed",!on);t.textContent=on?"Original · ver tradução":`Traduzido de ${i.lang.toUpperCase()} · ver original`}};
+$("#dlg").onclose=()=>$("#yt").src="";
+
+fetch("data/items.json").then(r=>r.json()).then(d=>{items=d;render();
+  if(d[0])$("#foot").textContent=`${d.length} itens · atualizado ${ago(d.reduce((m,i)=>i.published>m?i.published:m,""))}. Mostramos só título, resumo e imagem de cada veículo; o texto completo fica na fonte. Traduções automáticas podem conter erros.`})
+ .catch(()=>{$("#grid").innerHTML='<div class="empty" style="grid-column:1/-1">Não foi possível carregar data/items.json.</div>'});
+</script>
+</body>
+</html>

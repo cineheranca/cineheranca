@@ -1,18 +1,245 @@
 {
-  "_ajuda": "Para adicionar uma fonte, inclua um objeto na lista. type: news | podcast | video. lang: idioma de origem (en, pt, es, fr...). category: cinema | tv | series | geral. Valide as URLs: se um feed falhar, o robô só o ignora e segue.",
-  "feeds": [
-    {"name": "Variety", "url": "https://variety.com/feed/", "lang": "en", "type": "news", "category": "geral"},
-    {"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/feed/", "lang": "en", "type": "news", "category": "geral"},
-    {"name": "Deadline", "url": "https://deadline.com/feed/", "lang": "en", "type": "news", "category": "geral"},
-    {"name": "IndieWire", "url": "https://www.indiewire.com/feed/", "lang": "en", "type": "news", "category": "geral"},
-    {"name": "Collider", "url": "https://collider.com/feed/", "lang": "en", "type": "news", "category": "geral"},
-    {"name": "/Film", "url": "https://www.slashfilm.com/feed/", "lang": "en", "type": "news", "category": "cinema"},
-    {"name": "The Guardian · Film", "url": "https://www.theguardian.com/film/rss", "lang": "en", "type": "news", "category": "cinema"},
-    {"name": "The Guardian · TV", "url": "https://www.theguardian.com/tv-and-radio/rss", "lang": "en", "type": "news", "category": "tv"},
-    {"name": "Folha · Ilustrada", "url": "https://feeds.folha.uol.com.br/ilustrada/rss091.xml", "lang": "pt", "type": "news", "category": "geral"},
-    {"name": "Omelete", "url": "https://www.omelete.com.br/rss", "lang": "pt", "type": "news", "category": "geral"},
-    {"name": "Filmspotting", "url": "https://feeds.feedburner.com/filmspotting", "lang": "en", "type": "podcast", "category": "cinema"},
-    {"name": "Pop Culture Happy Hour", "url": "https://feeds.npr.org/510282/podcast.xml", "lang": "en", "type": "podcast", "category": "geral"},
-    {"name": "Canal de trailers (exemplo)", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=COLOQUE_O_ID_DO_CANAL", "lang": "en", "type": "video", "category": "cinema", "enabled": false}
-  ]
+ "_ajuda": "Para adicionar uma fonte, inclua um objeto na lista. type: news | podcast | video. lang: idioma de origem (en, pt, es, fr...). category: cinema | tv | series | geral. Valide as URLs: se um feed falhar, o robô só o ignora e segue.",
+ "feeds": [
+  {
+   "name": "Variety",
+   "url": "https://variety.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "The Hollywood Reporter",
+   "url": "https://www.hollywoodreporter.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "Deadline",
+   "url": "https://deadline.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "IndieWire",
+   "url": "https://www.indiewire.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "Collider",
+   "url": "https://collider.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "/Film",
+   "url": "https://www.slashfilm.com/feed/",
+   "lang": "en",
+   "type": "news",
+   "category": "cinema",
+   "country": "US"
+  },
+  {
+   "name": "The Guardian · Film",
+   "url": "https://www.theguardian.com/film/rss",
+   "lang": "en",
+   "type": "news",
+   "category": "cinema",
+   "country": "GB"
+  },
+  {
+   "name": "The Guardian · TV",
+   "url": "https://www.theguardian.com/tv-and-radio/rss",
+   "lang": "en",
+   "type": "news",
+   "category": "tv",
+   "country": "GB"
+  },
+  {
+   "name": "Folha · Ilustrada",
+   "url": "https://feeds.folha.uol.com.br/ilustrada/rss091.xml",
+   "lang": "pt",
+   "type": "news",
+   "category": "geral",
+   "country": "BR"
+  },
+  {
+   "name": "Omelete",
+   "url": "https://www.omelete.com.br/rss",
+   "lang": "pt",
+   "type": "news",
+   "category": "geral",
+   "country": "BR"
+  },
+  {
+   "name": "Filmspotting",
+   "url": "https://feeds.feedburner.com/filmspotting",
+   "lang": "en",
+   "type": "podcast",
+   "category": "cinema",
+   "country": "US"
+  },
+  {
+   "name": "Pop Culture Happy Hour",
+   "url": "https://feeds.npr.org/510282/podcast.xml",
+   "lang": "en",
+   "type": "podcast",
+   "category": "geral",
+   "country": "US"
+  },
+  {
+   "name": "Canal de trailers (exemplo)",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=COLOQUE_O_ID_DO_CANAL",
+   "lang": "en",
+   "type": "video",
+   "category": "cinema",
+   "enabled": false
+  }
+ ],
+ "_ajuda_paises": "Cada país gera 2 buscas no Google News (cinema e séries), traduzidas para PT-BR. Edite os termos de busca (cinema/series) à vontade; remova um país para desativá-lo. 'gdelt' é usado só na descoberta semanal.",
+ "paises": [
+  {
+   "code": "BR",
+   "nome": "Brasil",
+   "lang": "pt",
+   "hl": "pt-BR",
+   "gl": "BR",
+   "ceid": "BR:pt-419",
+   "cinema": "cinema OR filmes OR bilheteria",
+   "series": "séries OR streaming OR televisão",
+   "gdelt": "brazil"
+  },
+  {
+   "code": "US",
+   "nome": "EUA",
+   "lang": "en",
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en",
+   "cinema": "movie OR film OR \"box office\"",
+   "series": "\"TV series\" OR streaming OR \"TV show\"",
+   "gdelt": "unitedstates"
+  },
+  {
+   "code": "GB",
+   "nome": "Inglaterra",
+   "lang": "en",
+   "hl": "en-GB",
+   "gl": "GB",
+   "ceid": "GB:en",
+   "cinema": "movie OR film OR \"box office\"",
+   "series": "\"TV series\" OR streaming OR \"TV show\"",
+   "gdelt": "unitedkingdom"
+  },
+  {
+   "code": "IT",
+   "nome": "Itália",
+   "lang": "it",
+   "hl": "it",
+   "gl": "IT",
+   "ceid": "IT:it",
+   "cinema": "cinema OR film",
+   "series": "\"serie tv\" OR streaming",
+   "gdelt": "italy"
+  },
+  {
+   "code": "PT",
+   "nome": "Portugal",
+   "lang": "pt",
+   "hl": "pt-PT",
+   "gl": "PT",
+   "ceid": "PT:pt-150",
+   "cinema": "cinema OR filmes OR bilheteria",
+   "series": "séries OR streaming OR televisão",
+   "gdelt": "portugal"
+  },
+  {
+   "code": "AO",
+   "nome": "Angola",
+   "lang": "pt",
+   "hl": "pt-PT",
+   "gl": "AO",
+   "ceid": "AO:pt-150",
+   "cinema": "cinema OR filmes OR bilheteria",
+   "series": "séries OR streaming OR televisão",
+   "gdelt": "angola"
+  },
+  {
+   "code": "JP",
+   "nome": "Japão",
+   "lang": "ja",
+   "hl": "ja",
+   "gl": "JP",
+   "ceid": "JP:ja",
+   "cinema": "映画 OR 映画館",
+   "series": "ドラマ OR アニメ OR 配信",
+   "gdelt": "japan"
+  },
+  {
+   "code": "ES",
+   "nome": "Espanha",
+   "lang": "es",
+   "hl": "es",
+   "gl": "ES",
+   "ceid": "ES:es",
+   "cinema": "cine OR película OR estreno",
+   "series": "series OR streaming OR televisión",
+   "gdelt": "spain"
+  },
+  {
+   "code": "AR",
+   "nome": "Argentina",
+   "lang": "es",
+   "hl": "es-419",
+   "gl": "AR",
+   "ceid": "AR:es-419",
+   "cinema": "cine OR película OR estreno",
+   "series": "series OR streaming OR televisión",
+   "gdelt": "argentina"
+  },
+  {
+   "code": "CL",
+   "nome": "Chile",
+   "lang": "es",
+   "hl": "es-419",
+   "gl": "CL",
+   "ceid": "CL:es-419",
+   "cinema": "cine OR película OR estreno",
+   "series": "series OR streaming OR televisión",
+   "gdelt": "chile"
+  },
+  {
+   "code": "RU",
+   "nome": "Rússia",
+   "lang": "ru",
+   "hl": "ru",
+   "gl": "RU",
+   "ceid": "RU:ru",
+   "cinema": "кино OR фильм OR кинопрокат",
+   "series": "сериал OR стриминг OR телевидение",
+   "gdelt": "russia"
+  },
+  {
+   "code": "DE",
+   "nome": "Alemanha",
+   "lang": "de",
+   "hl": "de",
+   "gl": "DE",
+   "ceid": "DE:de",
+   "cinema": "Kino OR Film",
+   "series": "Serie OR Streaming OR Fernsehen",
+   "gdelt": "germany"
+  }
+ ],
+ "ignorar": []
 }

@@ -23,7 +23,7 @@ nav{display:flex;gap:6px;flex-wrap:wrap;flex:1}
 nav button{background:none;border:1px solid transparent;color:var(--mute);font:500 14px var(--sans);padding:7px 14px;border-radius:99px;cursor:pointer}
 nav button:hover{color:var(--paper)}
 nav button[aria-pressed=true]{background:var(--gold);color:#2a1700}
-input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--paper);border-radius:99px;padding:8px 16px;font:inherit;width:220px;max-width:100%}
+select,input[type=search]{background:var(--panel);border:1px solid var(--line);color:var(--paper);border-radius:99px;padding:8px 16px;font:inherit;width:220px;max-width:100%}
 main{max-width:1240px;margin:auto;padding:24px 20px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:22px}
 .card{display:flex;flex-direction:column;background:var(--panel);border-radius:6px;overflow:hidden;border:1px solid var(--line);transition:border-color .2s}
@@ -62,6 +62,7 @@ footer{max-width:1240px;margin:20px auto;padding:0 20px;color:var(--mute);font-s
 <header><div class="bar">
   <a class="logo" href="./">Claquete<i>.</i></a>
   <nav id="tabs" aria-label="Filtrar por tipo"></nav>
+  <select id="country" aria-label="País"><option value="">Todos os países</option></select>
   <input id="q" type="search" placeholder="Buscar títulos, filmes, séries" aria-label="Buscar">
 </div></header>
 <main><div id="grid" class="grid"></div></main>
@@ -71,7 +72,8 @@ footer{max-width:1240px;margin:20px auto;padding:0 20px;color:var(--mute);font-s
 <script>
 const TABS=[["all","Tudo"],["cinema","Cinema"],["series","Séries"],["tv","TV"],["video","Vídeos"],["podcast","Podcasts"]];
 const $=s=>document.querySelector(s);
-let items=[],tab="all",term="";
+let items=[],tab="all",term="",country="";
+const NAMES={BR:"Brasil",US:"EUA",GB:"Inglaterra",IT:"Itália",PT:"Portugal",AO:"Angola",JP:"Japão",ES:"Espanha",AR:"Argentina",CL:"Chile",RU:"Rússia",DE:"Alemanha"};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const ago=iso=>{const m=(Date.now()-new Date(iso))/6e4;
   if(m<60)return`há ${Math.max(1,~~m)} min`;if(m<1440)return`há ${~~(m/60)} h`;if(m<10080)return`há ${~~(m/1440)} d`;
@@ -81,9 +83,11 @@ const LABEL={cinema:"Cinema",series:"Séries",tv:"TV",geral:"Geral"};
 $("#tabs").innerHTML=TABS.map(([k,l])=>`<button data-k="${k}" aria-pressed="${k==="all"}">${l}</button>`).join("");
 $("#tabs").onclick=e=>{const b=e.target.closest("button");if(!b)return;tab=b.dataset.k;
   document.querySelectorAll("#tabs button").forEach(x=>x.setAttribute("aria-pressed",x===b));render()};
+$("#country").onchange=e=>{country=e.target.value;render()};
 $("#q").oninput=e=>{term=e.target.value.toLowerCase();render()};
 
 function match(i){
+  if(country&&i.country!==country)return false;
   if(tab==="video"&&i.kind!=="video")return false;
   if(tab==="podcast"&&i.kind!=="podcast")return false;
   if(["cinema","series","tv"].includes(tab)&&i.category!==tab)return false;
@@ -120,7 +124,9 @@ $("#grid").onclick=e=>{
     t.setAttribute("aria-pressed",!on);t.textContent=on?"Original · ver tradução":`Traduzido de ${i.lang.toUpperCase()} · ver original`}};
 $("#dlg").onclose=()=>$("#yt").src="";
 
-fetch("data/items.json").then(r=>r.json()).then(d=>{items=d;render();
+fetch("data/items.json").then(r=>r.json()).then(d=>{items=d;
+  [...new Set(d.map(i=>i.country).filter(Boolean))].sort((a,b)=>(NAMES[a]||a).localeCompare(NAMES[b]||b)).forEach(c=>$("#country").add(new Option(NAMES[c]||c,c)));
+  render();
   if(d[0])$("#foot").textContent=`${d.length} itens · atualizado ${ago(d.reduce((m,i)=>i.published>m?i.published:m,""))}. Mostramos só título, resumo e imagem de cada veículo; o texto completo fica na fonte. Traduções automáticas podem conter erros.`})
  .catch(()=>{$("#grid").innerHTML='<div class="empty" style="grid-column:1/-1">Não foi possível carregar data/items.json.</div>'});
 </script>

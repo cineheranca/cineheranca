@@ -19,3 +19,9 @@ Padrão: `deep-translator` (sem chave). Para usar LibreTranslate, crie os secret
 
 ## Vídeos do YouTube
 Feed: `https://www.youtube.com/feeds/videos.xml?channel_id=ID_DO_CANAL`
+
+## Países e descoberta de fontes
+- `paises` no `feeds.json`: cada país gera buscas de cinema e séries no Google News (edite os termos).
+- `scripts/discover.py` (Action semanal): acha sites e podcasts novos via GDELT e iTunes, valida o feed e lista em `data/candidatos.json`.
+- Para aprovar: edite o arquivo no GitHub e troque `"aprovar": false` por `true` (entra no próximo ciclo) ou `"ignorar"`.
+- Modo automático: Settings → Secrets and variables → Actions → Variables → `AUTO_APPROVE` = `true`.

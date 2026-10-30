@@ -1,0 +1,18 @@
+{
+  "_ajuda": "Para adicionar uma fonte, inclua um objeto na lista. type: news | podcast | video. lang: idioma de origem (en, pt, es, fr...). category: cinema | tv | series | geral. Valide as URLs: se um feed falhar, o robô só o ignora e segue.",
+  "feeds": [
+    {"name": "Variety", "url": "https://variety.com/feed/", "lang": "en", "type": "news", "category": "geral"},
+    {"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/feed/", "lang": "en", "type": "news", "category": "geral"},
+    {"name": "Deadline", "url": "https://deadline.com/feed/", "lang": "en", "type": "news", "category": "geral"},
+    {"name": "IndieWire", "url": "https://www.indiewire.com/feed/", "lang": "en", "type": "news", "category": "geral"},
+    {"name": "Collider", "url": "https://collider.com/feed/", "lang": "en", "type": "news", "category": "geral"},
+    {"name": "/Film", "url": "https://www.slashfilm.com/feed/", "lang": "en", "type": "news", "category": "cinema"},
+    {"name": "The Guardian · Film", "url": "https://www.theguardian.com/film/rss", "lang": "en", "type": "news", "category": "cinema"},
+    {"name": "The Guardian · TV", "url": "https://www.theguardian.com/tv-and-radio/rss", "lang": "en", "type": "news", "category": "tv"},
+    {"name": "Folha · Ilustrada", "url": "https://feeds.folha.uol.com.br/ilustrada/rss091.xml", "lang": "pt", "type": "news", "category": "geral"},
+    {"name": "Omelete", "url": "https://www.omelete.com.br/rss", "lang": "pt", "type": "news", "category": "geral"},
+    {"name": "Filmspotting", "url": "https://feeds.feedburner.com/filmspotting", "lang": "en", "type": "podcast", "category": "cinema"},
+    {"name": "Pop Culture Happy Hour", "url": "https://feeds.npr.org/510282/podcast.xml", "lang": "en", "type": "podcast", "category": "geral"},
+    {"name": "Canal de trailers (exemplo)", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=COLOQUE_O_ID_DO_CANAL", "lang": "en", "type": "video", "category": "cinema", "enabled": false}
+  ]
+}

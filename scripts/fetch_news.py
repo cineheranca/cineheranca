@@ -1,11 +1,12 @@
 """Lê os feeds de feeds.json, normaliza, traduz para PT-BR e grava data/items.json."""
 import hashlib, html, json, os, re, sys, time
+from urllib.parse import quote_plus
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import feedparser, requests
 
 ROOT = Path(__file__).resolve().parent.parent
-MAX_AGE_DAYS, MAX_ITEMS, MAX_PER_FEED, MAX_NEW_TRANSLATIONS = 21, 400, 25, 80
+MAX_AGE_DAYS, MAX_ITEMS, MAX_PER_FEED, MAX_NEW_TRANSLATIONS = 21, 900, 25, 150
 UA = {"User-Agent": "CineFeedBot/1.0 (agregador RSS)"}
 
 TV_WORDS = re.compile(r"\b(tv|series|série|séries|season|temporada|episode|episódio|streaming|netflix|hbo|disney\+|prime video|apple tv|showrunner)\b", re.I)
@@ -67,8 +68,19 @@ def translate(text, src):
         print("  tradução falhou:", ex, file=sys.stderr)
         return None
 
+def google_feeds(paises):
+    out = []
+    for p in paises:
+        for cat in ("cinema", "series"):
+            q = quote_plus(f"({p[cat]}) when:7d")
+            url = f"https://news.google.com/rss/search?q={q}&hl={p['hl']}&gl={p['gl']}&ceid={p['ceid']}"
+            out.append({"name": f"Google News · {p['nome']}", "url": url, "lang": p["lang"], "type": "news",
+                        "category": cat, "country": p["code"], "google": True, "max": 15})
+    return out
+
 def main():
-    cfg = json.loads((ROOT / "feeds.json").read_text("utf-8"))["feeds"]
+    doc = json.loads((ROOT / "feeds.json").read_text("utf-8"))
+    cfg = doc["feeds"] + google_feeds(doc.get("paises", []))
     old = {i["id"]: i for i in json.loads((ROOT / "data" / "items.json").read_text("utf-8"))}
     limit = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
     items = dict(old)
@@ -80,19 +92,26 @@ def main():
         except Exception as ex:
             print(f"✗ {f['name']}: {ex}", file=sys.stderr); continue
         print(f"✓ {f['name']}: {len(feed.entries)} entradas")
-        for e in feed.entries[:MAX_PER_FEED]:
+        for e in feed.entries[:f.get('max', MAX_PER_FEED)]:
             link = e.get("link")
             if not link: continue
             iid = hashlib.sha1(link.encode()).hexdigest()[:16]
             dt = when(e)
             if dt < limit or iid in items: continue
             title, summary = clean(e.get("title")), clean(e.get("summary"), 320)
+            src = f["name"]
+            if f.get("google"):  # Google News: "Título - Veículo"; usa o veículo como fonte
+                pub = (e.get("source") or {}).get("title")
+                if pub:
+                    src = pub
+                    title = re.sub(r"\s+[-–—]\s+" + re.escape(pub) + r"$", "", title)
+                summary = ""
             cat = f.get("category", "geral")
             if cat == "geral":
                 cat = "series" if TV_WORDS.search(title + " " + summary) else "cinema"
             it = {"id": iid, "title": title, "summary": summary, "link": link,
                   "image": find_image(e), "published": dt.isoformat(),
-                  "source": f["name"], "lang": f["lang"], "kind": f["type"], "category": cat}
+                  "source": src, "country": f.get("country"), "lang": f["lang"], "kind": f["type"], "category": cat}
             if f["type"] == "podcast":
                 it["audio"] = find_audio(e)
                 if not it["audio"]: continue

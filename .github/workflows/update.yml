@@ -8,12 +8,14 @@ permissions:
 concurrency: update-news
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12", cache: pip }
-      - run: pip install feedparser requests deep-translator
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
       - run: python scripts/fetch_news.py
         env:
           LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}

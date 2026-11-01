@@ -1,5 +1,44 @@
 [
  {
+  "id": "d3f23558e9fd3c36",
+  "title": "8 Books To Read Before Kicking the Bucket",
+  "summary": "From the classic dystopian novel The Handmaid's Tale to the psychological thriller Gone Girl, you should add these books to your bucket list to read.",
+  "link": "https://collider.com/books-to-read-bucket-list/",
+  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/04/elisabeth-moss-looking-up-to-the-sky-in-the-handmaid-s-tale.jpg",
+  "published": "2026-11-01T12:09:12+00:00",
+  "source": "Collider",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "a4f4f40ef8913923",
+  "title": "When Is the Next 'Court of Thorns and Roses' Coming Out?",
+  "summary": "After years away, Sarah J. Maas finally brought us back to Prythian, and yet another ACOTAR adventure is just around the corner.",
+  "link": "https://collider.com/acotar-7-release-date-court-of-thorns-and-roses-next-book/",
+  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/10/a-court-of-thorns-and-roses.jpg",
+  "published": "2026-11-01T12:04:12+00:00",
+  "source": "Collider",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "7b7ec4810adeebac",
+  "title": "HBO's 9/10 'Downton Abbey' Replacement Officially Makes Major Comeback Ahead of Season 4",
+  "summary": "HBO's The Gilded Age returns November 1 for Season 4, with Carrie Coon and Christine Baranski leading eight new episodes.",
+  "link": "https://collider.com/the-gilded-age-season-4-hbo-max-release-date-november-2026/",
+  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/hbo.jpg",
+  "published": "2026-11-01T12:00:12+00:00",
+  "source": "Collider",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
   "id": "f012afb2f32ddf14",
   "title": "Netflix’s 6-Episode Thriller Miniseries Is the Perfect Harlan Coben Replacement",
   "summary": "If you're a fan of Harlan Coben's thrillers, Behind Her Eyes takes that same formula and gives it a supernatural twist.",
@@ -11660,44 +11699,5 @@
   "kind": "podcast",
   "category": "series",
   "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510282/npr.simplecastaudio.com/f75261d2-0860-4d61-91c1-a78a2b997ff2/episodes/404ed163-e031-4ef4-bbd0-5cb43551e35e/audio/128/default.mp3?awCollectionId=f75261d2-0860-4d61-91c1-a78a2b997ff2&awEpisodeId=404ed163-e031-4ef4-bbd0-5cb43551e35e&feed=QGMNw0q1&t=podcast&e=nx-s1-6019428&p=510282&d=1443&size=23101066"
- },
- {
-  "id": "3c8007b9e8b3be73",
-  "title": "『Mouthwashing』長編映画化が決定。救出確率0％の宇宙船クルーを描く、キツすぎる心理ホラーを劇場でもう一度。Switch、PS5/4、XBOX版は本日（10/30）発売",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ySEJtaUo1Y0MwREVoa1pRbTBwUV9SZmVKSWtORHFPTlg4V1BzMFRFaDdReTZvTlVrRGRNaEcyYWhSczZGa2RuOXd3Y3pPSnk0c0pvYXgzSQ?oc=5",
-  "image": null,
-  "published": "2026-10-30T07:00:00+00:00",
-  "source": "ファミ通",
-  "country": "JP",
-  "lang": "ja",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "725c2c84199a3502",
-  "title": "キェシロフスキ没後30年 トリコロール三部作",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03SFZZVElJRGRsaFpiS3l6RE96YUJ6Skd3VkdzbzhiVGFJOVUwbzNoamtPQ21PT2VNR0VNcDk5YXc1TmV1bHppMmg5ZjQ3Tm91aGI3YU50RjdZYzFMNDNkUVJ0cWpCVElWN0E?oc=5",
-  "image": null,
-  "published": "2026-10-30T07:00:00+00:00",
-  "source": "Bunkamura",
-  "country": "JP",
-  "lang": "ja",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "509c523853723d45",
-  "title": "Un experto helenista español, contra 'La Odisea' de Christopher Nolan: \"Como un niño rico, ha sido frívolo con uno de los monumentos culturales que han alimentado la civilización universal\"",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNMWxkaGdCbjJjYkVCQmdlWi1oV2E3dTVuS19Bck5saGRFeklWOU5sai1IempuNjNEY1RIcG11QWstRXdZSXRieDFnZFNRaHlwTFk3ZDdHOEo2SmlBVER5Z3lLLUpxSHBOdm4wX1RZZnFlNnVGMmlfMEF3amxYUmg2OFlGTXM0Q1hqSmdkX1gxUWs1V3FoeGw2ckxoRko1d01zSkdUWm1qU0ZjcXpRSFhhUVZsQ1k0bE5hRE5aRnNvWk9rUmloXzd1MndGa1BRZHg5dTZNNmd0T3E4S2kxT0drNEtvVExIQQ?oc=5",
-  "image": null,
-  "published": "2026-10-30T07:00:00+00:00",
-  "source": "Fotogramas ES",
-  "country": "ES",
-  "lang": "es",
-  "kind": "news",
-  "category": "cinema"
  }
 ]

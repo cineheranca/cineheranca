@@ -1,5 +1,45 @@
 [
  {
+  "id": "ac1f88809b3aa1e9",
+  "title": "‘Kamen Rider’ Studio Toei Frames Generative AI Rules, Sets First Video Games for 2027",
+  "summary": "Toei, the Japanese studio giant behind “Kamen Rider” and the Super Sentai series that became “Power Rangers,” has drawn up rules for generative AI and started using AI in its film and video production, president and CEO Yoshimura Fumio said at the Taiwan Creative Content Fest (TCCF) in Taipei. A dedicated team at the…",
+  "link": "https://variety.com/2026/tv/markets-festivals/kamen-rider-studio-toei-generative-ai-rules-2027-game-slate-1236941104/",
+  "image": "https://variety.com/wp-content/uploads/2017/12/kamen-rider-2.jpg",
+  "published": "2026-11-06T08:21:04+00:00",
+  "source": "Variety",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "f96124ec34e9771c",
+  "title": "‘Too many stories exist only to make you think you’re on the right side’: Cristian Mungiu on Fjord, the Cannes winner that divided Europe",
+  "summary": "The Romanian auteur’s new film could have been the kind of homogenous ‘Europudding’ he’s railed against for years. Instead, it’s a culture-clash skewering of conservative and liberal values worthy of its Palme d’Or ‘Pffff!” Cristian Mungiu lets out an exasperated sigh. We are sitting in the basement of a London hotel,…",
+  "link": "https://www.theguardian.com/film/2026/nov/06/too-many-stories-exist-only-to-make-you-think-youre-on-the-right-side-cristian-mungiu-on-fjord-his-disquieting-social-drama",
+  "image": "https://i.guim.co.uk/img/media/68ca6db8cea42984134c2dea54e6af8653aa63a8/805_0_4026_3221/master/4026.jpg?width=140&quality=85&auto=format&fit=max&s=6163b6da72249cbed9768f2266db2a87",
+  "published": "2026-11-06T08:00:47+00:00",
+  "source": "The Guardian · Film",
+  "country": "GB",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "db61f4cbe9607a35",
+  "title": "Wild Horse Nine and What’s Making Us Happy",
+  "summary": "Wild Horse Nine is a terrific new movie that stars John Malkovich and Sam Rockwell as two CIA agents who head to Easter Island for an unusual and mysterious mission in the early 1970s. They bicker and banter constantly, but the film is more than just a hangout movie: It also reflects heavily on memory and regret.…",
+  "link": "https://www.npr.org/2026/11/06/nx-s1-6030648/wild-horse-nine-is-a-killer-hang-with-actual-killers",
+  "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3376x1899+1+0/resize/1280/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb8%2F36%2F5304cc1d46eeb9592df672e481a9%2F18c61c70-961f-40f9-8cea-27c09d379928.jpg",
+  "published": "2026-11-06T08:00:00+00:00",
+  "source": "Pop Culture Happy Hour",
+  "country": "US",
+  "lang": "en",
+  "kind": "podcast",
+  "category": "cinema",
+  "audio": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510282/npr.simplecastaudio.com/f75261d2-0860-4d61-91c1-a78a2b997ff2/episodes/f1252cd6-8a73-4799-94a9-7a09b002240f/audio/128/default.mp3?awCollectionId=f75261d2-0860-4d61-91c1-a78a2b997ff2&awEpisodeId=f1252cd6-8a73-4799-94a9-7a09b002240f&feed=QGMNw0q1&t=podcast&e=nx-s1-6030648&p=510282&d=1384&size=22145611"
+ },
+ {
   "id": "2cddd103d5657f2e",
   "title": "Taiwan Audience Study Highlights Cross-Platform IP Opportunities as AI Raises New Risks for Content Industry",
   "summary": "Taiwanese audiences are consuming entertainment across film, television, music, publishing and gaming, creating opportunities for cross-platform IP development, according to research presented by the Taiwan Creative Content Agency (TAICCA) at Taiwan Creative Content Fest (TCCF) in Taipei on Friday. At the “Exclusive…",
@@ -4693,6 +4733,19 @@
   "category": "series"
  },
  {
+  "id": "ccef8f7ca04261ad",
+  "title": "Elke Sommer obituary",
+  "summary": "Glamorous star of 1960s films best known for her role opposite Peter Sellers in A Shot in the Dark Like Ingrid Bergman and Sophia Loren, the German actor Elke Sommer was part of the postwar crossover wave of European stars who pepped up the tail end of the Hollywood studio era. Sommer, who has died aged 85, matched…",
+  "link": "https://www.theguardian.com/film/2026/nov/05/elke-sommer-obituary",
+  "image": "https://i.guim.co.uk/img/media/eed44edd49157d4ad5dcc144811fd9cb64d3985f/255_36_2735_2188/master/2735.jpg?width=140&quality=85&auto=format&fit=max&s=4e48d8687b4cc974f445ff6a457d36fc",
+  "published": "2026-11-05T15:08:12+00:00",
+  "source": "The Guardian · Film",
+  "country": "GB",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
   "id": "d4577182c186ed7f",
   "title": "Stimmen Sie ab: Das schönste Herbsturlaubsfoto - Hier und heute - Fernsehen",
   "summary": "",
@@ -4834,6 +4887,19 @@
   "lang": "pt",
   "kind": "news",
   "category": "cinema"
+ },
+ {
+  "id": "f23588cd2d98130b",
+  "title": "異世界・ファンタジーアニメ5チャンネル | 無料で放送中の番組や配信中の話題作が見放題",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SWEwzc0xvQmFXemxIcWRZZ2NUOHcxRzN1MW05OTV0RDBwQ2VNczJlZ0FFaTExam0wcThmYWlNSldHV2FFdl9tQUtfM1oxUXJKbXNNRQ?oc=5",
+  "image": null,
+  "published": "2026-11-05T15:00:00+00:00",
+  "source": "ABEMA",
+  "country": "JP",
+  "lang": "ja",
+  "kind": "news",
+  "category": "series"
  },
  {
   "id": "d538d94989f5eeeb",
@@ -6119,6 +6185,19 @@
   "source": "Интерфакс",
   "country": "RU",
   "lang": "ru",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "f184fb290c1032f8",
+  "title": "Una veintena de actividades llena de contenido el 22º Festival de Cine y Vino",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYlFUX1RqMklPZXF0UF82Zjc3dElPZ2VZMl9KdjYtT1h3ZmdEcXp1OEdrenlhYXM1UHRLZzhYLV9wRmJSNEc2N0IxZWxFdnhMeTVjdWdSdmMwWEVoSUV4TG9tcU9EUlZ1c1YwcmdSRmxJcVJVNDdwaUxvT2V1Y2trRlZYZEd1V1NKTXpvZHdCLWNrQzE2WkF4bU0xY3BmdEJodEtreg?oc=5",
+  "image": null,
+  "published": "2026-11-05T11:32:49+00:00",
+  "source": "Ayuntamiento de La Solana",
+  "country": "ES",
+  "lang": "es",
   "kind": "news",
   "category": "cinema"
  },
@@ -7565,6 +7644,19 @@
   "lang": "en",
   "kind": "news",
   "category": "series"
+ },
+ {
+  "id": "8158b8663901d5fe",
+  "title": "未来",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE84dWVRcldRRlV0T1FLeDFsTzduT2xCN0J3ZGliYzNGZWZCMmhsOEUtWUVzdEhBbGlmSjQ0bzB2dkpNVllwQ0wycTBBbzBZZw?oc=5",
+  "image": null,
+  "published": "2026-11-05T05:01:16+00:00",
+  "source": "WOWOW",
+  "country": "JP",
+  "lang": "ja",
+  "kind": "news",
+  "category": "cinema"
  },
  {
   "id": "5cc8a62b22ccc39a",
@@ -11608,96 +11700,5 @@
   "lang": "pt",
   "kind": "news",
   "category": "series"
- },
- {
-  "id": "414c02f1af50025d",
-  "title": "Il Festival torna live con lo streaming gratuito",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1vSzVxZUhBdUtHekxJYUI1MG95cVVXejZvcHI5NzVmUVphT181M2s2aW9NSWpNQUtGNHI3QjNrUTd2Z0NTaUd5TGRUc3N3OExDSmVDM2thbkp5d1lVU2hISkJfZzN5ck5VOU1pR3dSeTI0al9sR3ljbjJ1X20?oc=5",
-  "image": null,
-  "published": "2026-11-04T15:06:15+00:00",
-  "source": "Ravenna Festival",
-  "country": "IT",
-  "lang": "it",
-  "kind": "news",
-  "category": "series"
- },
- {
-  "id": "f73e79e976bd4ca1",
-  "title": "Marvel Officially Gives Spider-Man a Death Sentence",
-  "summary": "Marvel officially puts Spider-Man and Aunt May in deadly danger as Avengers #1 brings Peter Parker’s deal with Mephisto back into play.",
-  "link": "https://collider.com/spider-man-death-sentence-mephisto-deal-avengers-1/",
-  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/spider-man-brand-new-day-tom-holland.jpg",
-  "published": "2026-11-04T15:05:05+00:00",
-  "source": "Collider",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "5e6b10879731e118",
-  "title": "Morre Tinto Brass, diretor do polêmico e clássico cult 'Calígula', aos 93 anos",
-  "summary": "O diretor italiano de cinema erótico Tinto Brass , conhecido principalmente pelo filme cult e controverso \"Calígula\", morreu nesta quarta-feira (4) aos 93 anos, informou sua família à agência de notícias Ansa. Leia mais (11/04/2026 - 12h05)",
-  "link": "https://redir.folha.com.br/redir/online/ilustrada/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/morre-tinto-brass-diretor-do-polemico-e-classico-cult-caligula-aos-93-anos.shtml",
-  "image": null,
-  "published": "2026-11-04T15:05:00+00:00",
-  "source": "Folha · Ilustrada",
-  "country": "BR",
-  "lang": "pt",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "25b3a4d0dc20e1ab",
-  "title": "Stocks Rally Higher After Democrats Flip Congress",
-  "summary": "Wall Street cheered the Blue Wave that put Democrats in control of both the Senate and House, with major market indexes and media stocks posting gains Wednesday morning after the midterm elections. The Dow Jones Industrial Average soared over 1,100 points in early trading, up 2.2%, to nearly 53,000, while the Nasdaq…",
-  "link": "https://variety.com/2026/biz/news/stocks-midterm-elections-democrats-congress-1236939220/",
-  "image": "https://variety.com/wp-content/uploads/2024/12/Media-stocks-NYSE.jpg",
-  "published": "2026-11-04T15:01:32+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "11cd775568449b65",
-  "title": "‘Merry Everything’ Variety Series Featuring Jennie Garth, John Legend and Lori Loughlin to Lead QVC+’s Holiday TV Lineup (EXCLUSIVE)",
-  "summary": "QVC has unveiled its 2026 holiday programming lineup for subcription-free streamers QVC+ and HSN+, anchored by new variety series featuring celebrity guest stars like Jennie Garth, John Legend and Lori Loughlin. Hosted by QVC staple Chelsea Phillips Reid, “Merry Everything!” is described as a “joyful holiday variety…",
-  "link": "https://variety.com/2026/tv/news/qvc-holiday-schedule-jennie-garth-john-legend-lori-loughlin-1236939238/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/Merry-Everything-QVC.png",
-  "published": "2026-11-04T15:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "series"
- },
- {
-  "id": "3439f8e498340288",
-  "title": "Bill Nighy, Hayley Atwell and Maisie Williams Lead Voice Cast of Animated Feature ‘The Last Dino’ (EXCLUSIVE)",
-  "summary": "Bill Nighy (“Living,” “Love Actually”), Hayley Atwell (“Mission: Impossible,” “Captain America”) and Maisie Williams (“Game of Thrones”) have joined the English-language voice cast of “The Last Dino,” the upcoming CG-animated family feature directed by Federico Milella. The film will make its market premiere at the…",
-  "link": "https://variety.com/2026/film/global/bill-nighy-hayley-atwell-maisie-williams-the-last-dino-1236939109/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/Dino-cast.jpg",
-  "published": "2026-11-04T15:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "3dc43008580c1e21",
-  "title": "Thaddea Graham to Be Honored at the Oscar Wilde Awards (Exclusive)",
-  "summary": "‘The Bad Sisters,’ ‘Margo’s Got Money Troubles’ and ‘Artificial’ actress will be feted March 11 in Los Angeles.",
-  "link": "https://www.hollywoodreporter.com/tv/tv-news/oscar-wilde-awards-thaddea-graham-bad-sisters-1236747001/",
-  "image": null,
-  "published": "2026-11-04T15:00:00+00:00",
-  "source": "The Hollywood Reporter",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
  }
 ]

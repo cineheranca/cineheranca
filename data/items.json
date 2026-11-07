@@ -1,5 +1,44 @@
 [
  {
+  "id": "3afb7ae606510792",
+  "title": "Jason Statham’s Leaked Action Movie Officially Goes From Box Office Flop to No. 1",
+  "summary": "Jason Statham’s Mutiny leaked before release and earned $15.8 million domestically before finding a new audience on digital.",
+  "link": "https://collider.com/mutiny-jason-statham-digital-success-november-2026/",
+  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/mutiny-jason-statham-2.jpg",
+  "published": "2026-11-07T15:00:12+00:00",
+  "source": "Collider",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "e8283e2f3d14e036",
+  "title": "Magenta TV’s Cypriot-Set Thriller ‘Brothers’ Wasn’t Allowed To Shoot In The Country. The Producers Explain Why: “The Reasons Were Political”",
+  "summary": "Nicosia, the capital of Cyprus, is at the center of Brothers, the new 6-part series by Simon Farmakas, but producers Fenia Cossovitsa and Alexandra Hoesdorff revealed this afternoon during a panel in Thessaloniki that the show couldn’t shoot in the city. Cossovitsa and Hoesdorff were joined on the panel by Faye…",
+  "link": "https://deadline.com/2026/11/magenta-tv-brothers-cyprus-thessaloniki-1237216243/",
+  "image": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2021-03-22-at-16_24_46.avif",
+  "published": "2026-11-07T14:43:39+00:00",
+  "source": "Deadline",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "c7a275ea1bed4f85",
+  "title": "Paul Howard Dies: Son Of Three Stooges’ Moe Howard, Keeper Of The Flame Was 91",
+  "summary": "Paul Howard, the only son of The Three Stooges’ Moe Howard and the last surviving son of the comedy team’s classic line up – Moe, brothers Curly and Shemp, and Larry Fine – died this week. He was 91. The death was confirmed by a spokesperson for C3 Entertainment, the owner of The Three Stooges […]",
+  "link": "https://deadline.com/2026/11/paul-howard-dead-three-stooges-1237216234/",
+  "image": "https://deadline.com/wp-content/uploads/2026/11/Paul-Howard-JPG-1.jpeg",
+  "published": "2026-11-07T14:34:20+00:00",
+  "source": "Deadline",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
   "id": "8f69be7f4063c948",
   "title": "MIS exibe 'Sirât', de Oliver Laxe, com debate no Ciclo de Cinema e Psicanálise",
   "summary": "Na terça-feira (10), às 19h, o Museu da Imagem e do Som ( MIS ) exibe o filme \" Sirât \", do diretor franco-espanhol Oliver Laxe, que acompanha a jornada de um pai em busca da filha desaparecida no deserto do Marrocos . A sessão integra o Ciclo de Cinema e Psicanálise, parceria entre a Sociedade Brasileira de…",
@@ -60,6 +99,19 @@
   "published": "2026-11-07T13:45:12+00:00",
   "source": "Collider",
   "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "3d78424719ef911a",
+  "title": "Paul Whitehouse to release ‘proper silly’ TV show for children",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMG53QmxMTXBWejZEaHdTdm1ySTRzUXR4VFdZbE4tZnFpRWhpcWdNRGdQdDliOGZsTmc0Z2h0d3FMeHVLeks3clRGUXZCalVrT2xxUy1IanNKdUhXYzJHaGxfN2NJeE9QbDlZd2dEMS1HVUp4THNJMkF1ckFYQVVqbW5kc3Q3cnhXZmxjNU9nNWR0cXR3QzROQnJFZGk1NGRHNkc4?oc=5",
+  "image": null,
+  "published": "2026-11-07T13:43:00+00:00",
+  "source": "The Telegraph",
+  "country": "GB",
   "lang": "en",
   "kind": "news",
   "category": "series"
@@ -2249,6 +2301,32 @@
   "category": "cinema"
  },
  {
+  "id": "60ceff7490959c9e",
+  "title": "「花ざかりの君たちへ」新ドラマ＆舞台化始動！ランペ長谷川慎・藤原樹、Lienel高岡ミロ・森田璃空ら出演（コメントあり）",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5rc2VES0NBaEltMWpidVBuOWYtVkotamFBNmNqQWxEcmttZlZDTjc5OS1vS0QxazlnV3BHZWZqbXZPbGNTS3Nqcl9nMWs?oc=5",
+  "image": null,
+  "published": "2026-11-06T22:00:00+00:00",
+  "source": "ナタリー",
+  "country": "JP",
+  "lang": "ja",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "f518ba29f8471cc2",
+  "title": "Bundesliga: Der HSV feiert Heimsieg gegen Borussia Mönchengladbach",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVFBWTTBnNzFLdjlWWTdEQnJXZml3RVYzTUlPNlVsSEtIemNOcTRNY3IyZXR4YlNteV9HbEpoTllLYXhFT3ZhWWxKcU9vQ2Y3ZWttV1g5YTNFWDhaM21adWRSYkJwTkdBN1padk45QzlQd0thOTQzYnRsLVY3UTY4R2o0bjE1LTJTVUtvTUJ0cl96dTlTbUZySF95YjZWNTh6?oc=5",
+  "image": null,
+  "published": "2026-11-06T22:00:00+00:00",
+  "source": "NDR.de",
+  "country": "DE",
+  "lang": "de",
+  "kind": "news",
+  "category": "series"
+ },
+ {
   "id": "6408b2b763bb858a",
   "title": "Blumhouse Atomic Partners with Horror Comic Creator James Tynion IV for First-Look Deal (Exclusive)",
   "summary": "Exquisite news: The deal starts off with Blumhouse boarding the adaptation of hit comic 'Exquisite Corpses.'",
@@ -3495,6 +3573,19 @@
   "lang": "en",
   "kind": "news",
   "category": "cinema"
+ },
+ {
+  "id": "40433b21defc731f",
+  "title": "Fox completes acquisition of streaming giant Roku",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc0E2VXF3SkFmS1RaWC1uc0RtTnljbXZ1VEJ5UUQ0V0VvT3UwNWpnNlZ4bUItbGVwcngtbF9KZVY0bXZEOVZfTkctNGxTU1E2MzYtSFNSd2NWZlhtdlBKa3JxeXBoZmJwYVVFX1NucHJ4aG1BY2VVamFlVWpkWEdldEQ4VVdwWllNbHfSAY8BQVVfeXFMTlB4ZmZoTVR4b0pjTS1PcDhBY1RxV3ltUlduVHBUVUZNX0lWQV9ScVJXY3hQelk0WVZLaWVJNEs1NEJ3SVZUWFB3dE5aem1qUVJlVkNDeWRBX3BTeERibkx1OHp2MzdHUlZVZEc5Sk1WbVR6QV9PUjFJTWFpb0JITmR0ZGxETXpQUWZTT3ByTUU?oc=5",
+  "image": null,
+  "published": "2026-11-06T18:27:00+00:00",
+  "source": "Fox Business",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
  },
  {
   "id": "f4e251f80f0868ae",
@@ -11532,6 +11623,19 @@
   "category": "cinema"
  },
  {
+  "id": "d5fc31e55549e28e",
+  "title": "15 melhores séries para ver na Netflix em Portugal em 2026",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5taDVQTW9ZZEt4YUh3OEdrZllnOHdDcE5lVS1EQkhRbUItTU5ZeWltaGVYMFZTSVFkWUZqZHRBTExoWUFWZjhyZUpkZ1VpNnpZcVNPbW1UVk1TZ3JEZmlJcGxVdUF1MTdERHNvUU40R09yWmN5?oc=5",
+  "image": null,
+  "published": "2026-11-05T17:04:17+00:00",
+  "source": "4gnews",
+  "country": "AO",
+  "lang": "pt",
+  "kind": "news",
+  "category": "series"
+ },
+ {
   "id": "22efb7f3c69ff02f",
   "title": "Расписание выхода сериала «Айда!» с Никитой Кологривым",
   "summary": "",
@@ -11595,109 +11699,5 @@
   "lang": "en",
   "kind": "news",
   "category": "series"
- },
- {
-  "id": "49046b5dfc0c2158",
-  "title": "Robert Pattinson To Receive 40th Annual American Cinematheque Award",
-  "summary": "With four major films in release, critical praise for all of them and Batman Part II on the way, Robert Pattinson is having a good year. It just got better. Pattison will be the recipient of the 40th American Cinematheque Award, a milestone celebration taking place February 9, 2027 at the Beverly Hilton. Last month,…",
-  "link": "https://deadline.com/2026/11/robert-pattinson-40th-american-cinematheque-award-1237214469/",
-  "image": "https://deadline.com/wp-content/uploads/2026/11/Robert-Pattinson-AC-Award-Logo-Web-Graphic-Photo-Credit-Stefanie-Keenan.jpg",
-  "published": "2026-11-05T17:00:01+00:00",
-  "source": "Deadline",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "f841bd16dd09cb6d",
-  "title": "How Grimes’ Cameo in Theater-Bound AI Film ‘Gods Don’t Give Gifts’ Came Together (EXCLUSIVE)",
-  "summary": "Even in the AI era, there’s still no better way to reach a favorite artist than by sliding into their DMs. Zack London, who directed the upcoming AI film “Gods Don’t Give Gifts” under his moniker Gossip Goblin, had long been a fan of Grimes, the moniker of 38-year-old experimental pop artist Claire Boucher. But […]",
-  "link": "https://variety.com/2026/film/news/grimes-cameo-ai-film-gods-dont-give-gifts-1236940417/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/2_Grimes_NoLogo-1.png",
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "997bcd5ff06e9a27",
-  "title": "Robert Pattinson to Receive 40th American Cinematheque Award",
-  "summary": "Robert Pattinson will be honored as the 40th recipient of the American Cinematheque Award. Pattinson receives the award in celebration of his own two-decade career, in which he’s established himself as one of the most versatile actors of his generation. The actor will be feted on Feb. 9, 2027, at the Beverly Hilton in…",
-  "link": "https://variety.com/2026/film/news/robert-pattinson-40th-american-cinematheque-award-ryan-gosling-1236939979/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/Robert-Pattinson-Headshot-Photo-Credit_-Stefanie-Keenan.png",
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "d4c701fa20c52a5a",
-  "title": "‘Dune’ Launches Arrakis-Inspired Press-On Nail Collection With Glamnetic",
-  "summary": "The world of “Dune” is getting the beauty treatment. Ahead of the Dec. 18 release of “Dune: Part Three,” Glamnetic has teamed up with Warner Bros. on a limited-edition collection of press-on nails inspired by the sci-fi franchise, marking its first foray into the beauty category. Launching Nov. 5, the limited-edition…",
-  "link": "https://variety.com/2026/shopping/news/dune-glamnetic-press-on-nail-collection-shop-onlline-1236938295/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/dune-press-on-nails.png",
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "be8e8ac99ab2211e",
-  "title": "Katseye’s Megan Skiendiel Fronts Rare Beauty and Warby Parker’s New Eyewear Collaboration",
-  "summary": "Selena Gomez’s Rare Beauty is expanding beyond makeup, teaming up with Warby Parker on a limited-edition eyewear collection fronted by Katseye member Megan Skiendiel. The collaboration features five optical and sunglass styles inspired by the shades of Rare Beauty’s bestselling Soft Pinch Liquid Blush. Starting at…",
-  "link": "https://variety.com/2026/shopping/news/katseye-megan-skiendiel-rare-beauty-warby-parkers-campaign-1236940083/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/rare-beauty-warby-parker.png",
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "7019154d5ce58e79",
-  "title": "How ‘Frontline’ Turned Into an Oscar-Winning Documentary Juggernaut",
-  "summary": "This year’s documentary Oscar race will pit a cringe comedy maestro against the most decorated documentary film producer of the past decade. While plenty of ink has been spilled over Nathan Fielder and Lance Oppenheim’s form-shattering Elizabeth Holmes curio “You Can See Everything,” it would be a mistake to count out…",
-  "link": "https://variety.com/2026/film/features/frontline-documentary-oscar-one-in-a-million-youtube-gen-z-1236939749/",
-  "image": "https://variety.com/wp-content/uploads/2026/11/DSC_0847.jpg",
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "Variety",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "64dcc7816b170560",
-  "title": "Martin McDonagh to Receive Outstanding Achievement in Directing Award at Palm Springs International Film Festival (Exclusive)",
-  "summary": "The Film Awards will take place on Jan. 7, 2027, with the festival running from Jan. 7 to Jan. 18.",
-  "link": "https://www.hollywoodreporter.com/movies/movie-news/martin-mcdonagh-directing-award-palm-springs-film-festival-1236746957/",
-  "image": null,
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "The Hollywood Reporter",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "003eeea34705bca6",
-  "title": "AFM Hot Project: Jacob Tremblay, Kate McKinnon Join ‘I’m With Stupid’ (Exclusive)",
-  "summary": "Ego Nwodim and Chabely Ponce will co-star in the high school comedy from director Hannah Pearl Utt, which Upgrade is pitching to buyers at the American Film Market.",
-  "link": "https://www.hollywoodreporter.com/movies/movie-news/afm-jacob-tremblay-kate-mckinnon-join-comedy-im-with-stupid-1236747512/",
-  "image": null,
-  "published": "2026-11-05T17:00:00+00:00",
-  "source": "The Hollywood Reporter",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
  }
 ]

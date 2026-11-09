@@ -286,6 +286,28 @@
   "aprovar": false
  },
  {
+  "name": "Gilmore To Say: A Gilmore Girls Podcast",
+  "url": "https://feeds.redcircle.com/1863e315-c662-4e16-8595-af69e05b3bbb",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "The Delta Flyers",
+  "url": "https://feeds.redcircle.com/051d841f-35cd-42c5-badd-96eb3d97d593",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
   "name": "Nosso Podcast de Cinema",
   "url": "https://anchor.fm/s/5b87e4d8/podcast/rss",
   "lang": "pt",
@@ -495,6 +517,61 @@
   "aprovar": false
  },
  {
+  "name": "BEYOND THE SHIFT | An Operation Meditate Podcast Series",
+  "url": "https://anchor.fm/s/119180988/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "The Matriarchy Would Never | A Promote Yourself to CEO Podcast Series",
+  "url": "https://rss.buzzsprout.com/2663179.rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "The Business Journals: Thought Leadership Series",
+  "url": "https://feeds.captivate.fm/thought-leadership/",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "WAI Podcast Series",
+  "url": "https://anchor.fm/s/119a5dfb0/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "greytFM - a podcast series by greytHR",
+  "url": "https://feeds.hubhopper.com/accf6dab6764d6f1f2a435caa82a3702.rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
   "name": "Cine a Bordo",
   "url": "https://anchor.fm/s/76f14ac0/podcast/rss",
   "lang": "es",
@@ -583,6 +660,72 @@
   "aprovar": false
  },
  {
+  "name": "Reel Notes w/ CineMasai",
+  "url": "https://feed.podbean.com/dmasai12/feed.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "CineNerds Podcast",
+  "url": "https://feed.podbean.com/cinenerds/feed.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "傾埋cine",
+  "url": "https://media.rss.com/cine-ep01-pta-one-battle-after-another/feed.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Espartanos del Cine",
+  "url": "https://anchor.fm/s/e998ce4/podcast/rss",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Cine y Memoria: Historia del cine costarricense.",
+  "url": "https://feeds.ivoox.com/feed_fg_f12277356_filtro_1.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Hablando en Cine | El cine desde dentro",
+  "url": "https://feeds.ivoox.com/feed_fg_f11993395_filtro_1.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
   "name": "Wundervolle Kinotipps | Der li.wu.-Podcast",
   "url": "https://letscast.fm/podcasts/wundervolle-kinotipps-der-li-wu-podcast-3807e14d/feed",
   "lang": "de",
@@ -646,6 +789,94 @@
   "country": "DE",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "Kino Kompakt",
+  "url": "https://feeds.br.de/kino-kompakt/feed.xml",
+  "lang": "de",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Calcio Culture | Serie A and Italian Football Talk",
+  "url": "https://anchor.fm/s/10a297704/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Calcio Espresso - der Serie A Podcast",
+  "url": "https://anchor.fm/s/10142cfdc/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Fuera de Serie",
+  "url": "https://anchor.fm/s/1197defdc/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Comida En Serie",
+  "url": "https://feeds.ivoox.com/feed_fg_f1420216_filtro_1.xml",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Te receto una serie",
+  "url": "https://feeds.ivoox.com/feed_fg_f12734317_filtro_1.xml",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "queer.de",
+  "url": "https://queer.de/rss/newsticker2.0.komplett.xml",
+  "lang": "de",
+  "type": "news",
+  "category": "geral",
+  "country": "DE",
+  "score": 0.3,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "netzwelt.de",
+  "url": "https://www.netzwelt.de/feed/news_full.xml",
+  "lang": "de",
+  "type": "news",
+  "category": "geral",
+  "country": "DE",
+  "score": 0.3,
+  "encontrada": "2026-11-09",
   "aprovar": false
  },
  {
@@ -968,6 +1199,28 @@
   "aprovar": false
  },
  {
+  "name": "The Empire Film Podcast",
+  "url": "https://rss.podplaystudio.com/1209.xml",
+  "lang": "en",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "GB",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Latty's Tv Series Review",
+  "url": "https://anchor.fm/s/3c02fb70/podcast/rss",
+  "lang": "en",
+  "type": "podcast",
+  "category": "series",
+  "country": "GB",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
   "name": "Super Otto - Cinema, serie tv e cultura pop",
   "url": "https://anchor.fm/s/e5714ec8/podcast/rss",
   "lang": "it",
@@ -1056,6 +1309,50 @@
   "aprovar": false
  },
  {
+  "name": "Cinema Selvaggio",
+  "url": "https://anchor.fm/s/105479c20/podcast/rss",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Cellulite e Celluloide - Il cinema su Radio Elettrica",
+  "url": "https://gparker.altervista.org/cellulite%20celluloide.xml",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Noodles - Podcast di Cinema",
+  "url": "https://anchor.fm/s/fbed762c/podcast/rss",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Lost In The Space: storie di cinema",
+  "url": "https://anchor.fm/s/58ed2300/podcast/rss",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
   "name": "映画の話したすぎるラジオ",
   "url": "https://virtualeigabar.com/feed/podcast/%e6%98%a0%e7%94%bb%e3%81%ae%e8%a9%b1%e3%81%97%e3%81%9f%e3%81%99%e3%81%8e%e3%82%8b%e3%83%a9%e3%82%b8%e3%82%aa/",
   "lang": "ja",
@@ -1108,6 +1405,61 @@
   "country": "JP",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "矢田部吉彦映画チャンネル「シネマ・ラタトゥイユ」",
+  "url": "https://anchor.fm/s/fc78f260/podcast/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "中谷彰宏の「映画道」映画のココが面白い",
+  "url": "https://anchor.fm/s/113034648/podcast/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "どうでも映画",
+  "url": "https://anchor.fm/s/108224684/podcast/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "映画雑談",
+  "url": "https://anchor.fm/s/1471bcb8/podcast/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "スーパーの裏でヤニ吸うふたり スペシャルラジオドラマ",
+  "url": "https://feeds.megaphone.fm/TBS2202620732",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "series",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
   "aprovar": false
  },
  {
@@ -1207,6 +1559,28 @@
   "country": "PT",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "Cinema Talk Central",
+  "url": "https://www.spreaker.com/show/7529480/episodes/feed",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "PT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "赶场 Way to Cinemas",
+  "url": "https://feed.xyzfm.space/dpcrw3uvthqn",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "PT",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
   "aprovar": false
  },
  {
@@ -1427,6 +1801,28 @@
   "country": "US",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "This Had Oscar Buzz",
+  "url": "http://feeds.feedburner.com/ThisHadOscarBuzz",
+  "lang": "en",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "US",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "The Movies That Made Me",
+  "url": "https://feeds.megaphone.fm/ARML4511062078",
+  "lang": "en",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "US",
+  "score": 0.6,
+  "encontrada": "2026-11-09",
   "aprovar": false
  }
 ]

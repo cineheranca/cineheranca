@@ -165,6 +165,17 @@
   "aprovar": false
  },
  {
+  "name": "Cinema of Meaning",
+  "url": "https://rss.art19.com/cinema-of-meaning",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "AO",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
   "name": "Cine para todos",
   "url": "https://anchor.fm/s/f0d7666c/podcast/rss",
   "lang": "es",
@@ -305,6 +316,17 @@
   "country": "AR",
   "score": 0.6,
   "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Andy's Girls: A Real Housewives Podcast",
+  "url": "https://rss.introcast.io/1102241909/rss.art19.com/andys-girls",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
   "aprovar": false
  },
  {
@@ -572,6 +594,28 @@
   "aprovar": false
  },
  {
+  "name": "The Welwynn Podcast Series",
+  "url": "https://media.rss.com/the-welwynn-podcast-series/feed.xml",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "American Estate Planning Series",
+  "url": "https://feeds.megaphone.fm/american-estate-planning-series",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
   "name": "Cine a Bordo",
   "url": "https://anchor.fm/s/76f14ac0/podcast/rss",
   "lang": "es",
@@ -726,6 +770,17 @@
   "aprovar": false
  },
  {
+  "name": "35 MM: Cine, Historia y Análisis de Cine",
+  "url": "https://feeds.ivoox.com/feed_fg_f13249095_filtro_1.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
   "name": "Wundervolle Kinotipps | Der li.wu.-Podcast",
   "url": "https://letscast.fm/podcasts/wundervolle-kinotipps-der-li-wu-podcast-3807e14d/feed",
   "lang": "de",
@@ -855,6 +910,28 @@
   "country": "DE",
   "score": 0.6,
   "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "Kay Kino - Der Film- und Heimkino Podcast",
+  "url": "https://anchor.fm/s/c6add54c/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "Al-Mukhtasar: Interpretación resumida del Sagrado Corán (Serie de audio)",
+  "url": "https://anchor.fm/s/11a290afc/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
   "aprovar": false
  },
  {
@@ -1064,6 +1141,17 @@
   "country": "ES",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "El Octavo Pasajero",
+  "url": "http://feeds.feedburner.com/Sr-cinesShow",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "ES",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
   "aprovar": false
  },
  {
@@ -1353,6 +1441,28 @@
   "aprovar": false
  },
  {
+  "name": "ULTIMA VISIONE. Il Cinema da vedere in una scala da 1 a 10, escluso il 7.",
+  "url": "https://anchor.fm/s/7dd0960c/podcast/rss",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "Dicono che è bello, al cinema",
+  "url": "https://feeds.megaphone.fm/dicono-che-e-bello-a-venezia",
+  "lang": "it",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "IT",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
   "name": "映画の話したすぎるラジオ",
   "url": "https://virtualeigabar.com/feed/podcast/%e6%98%a0%e7%94%bb%e3%81%ae%e8%a9%b1%e3%81%97%e3%81%9f%e3%81%99%e3%81%8e%e3%82%8b%e3%83%a9%e3%82%b8%e3%82%aa/",
   "lang": "ja",
@@ -1460,6 +1570,17 @@
   "country": "JP",
   "score": 0.6,
   "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "MARSのひとり映画館",
+  "url": "https://rss.listen.style/p/hitorieigamars/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
   "aprovar": false
  },
  {
@@ -1823,6 +1944,61 @@
   "country": "US",
   "score": 0.6,
   "encontrada": "2026-11-09",
+  "aprovar": false
+ },
+ {
+  "name": "comicbook.com",
+  "url": "https://comicbook.com/feed/",
+  "lang": "en",
+  "type": "news",
+  "category": "geral",
+  "country": "US",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "At the Movies Again: Siskel & Ebert Movie Reviews",
+  "url": "https://feeds.simplecast.com/DWy8Bw86",
+  "lang": "en",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "US",
+  "score": 0.6,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "movieweb.com",
+  "url": "https://movieweb.com/feed",
+  "lang": "en",
+  "type": "news",
+  "category": "geral",
+  "country": "US",
+  "score": 0.4,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "thewrap.com",
+  "url": "https://www.thewrap.com/feed/",
+  "lang": "en",
+  "type": "news",
+  "category": "geral",
+  "country": "US",
+  "score": 0.4,
+  "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "houston.culturemap.com",
+  "url": "https://houston.culturemap.com/feeds/feed.rss",
+  "lang": "en",
+  "type": "news",
+  "category": "geral",
+  "country": "US",
+  "score": 0.3,
+  "encontrada": "2026-11-16",
   "aprovar": false
  }
 ]

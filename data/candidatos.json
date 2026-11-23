@@ -176,6 +176,28 @@
   "aprovar": false
  },
  {
+  "name": "The A24 Podcast",
+  "url": "https://anchor.fm/s/40560b4/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "AO",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Pod Meets World",
+  "url": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9a432e8b-a377-4f7f-9474-aeb500ed9e5b/38417d40-704e-4842-92f3-aeb500ee2aba/podcast.rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "AO",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Cine para todos",
   "url": "https://anchor.fm/s/f0d7666c/podcast/rss",
   "lang": "es",
@@ -327,6 +349,39 @@
   "country": "AR",
   "score": 0.6,
   "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "CineNation",
+  "url": "https://rss.libsyn.com/shows/59888/destinations/230054.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Clockless Series",
+  "url": "https://audioboom.com/channels/5021441.rss",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "The Series Buffalo Podcast",
+  "url": "https://feed.podbean.com/theseriesbuffalopodcast/feed.xml",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "AR",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
   "aprovar": false
  },
  {
@@ -616,6 +671,28 @@
   "aprovar": false
  },
  {
+  "name": "Séries no bar",
+  "url": "https://anchor.fm/s/3244b6a0/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "The Tennis Podcast",
+  "url": "https://feeds.acast.com/public/shows/4d90c19e-d564-4949-a998-27e24cca2aee",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "series",
+  "country": "BR",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Cine a Bordo",
   "url": "https://anchor.fm/s/76f14ac0/podcast/rss",
   "lang": "es",
@@ -781,6 +858,50 @@
   "aprovar": false
  },
  {
+  "name": "Cine con Carlos Correa Acuña",
+  "url": "https://anchor.fm/s/10759d53c/podcast/rss",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Lloviendo cine",
+  "url": "https://www.spreaker.com/show/4790474/episodes/feed",
+  "lang": "es",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "The Exploring Series",
+  "url": "https://anchor.fm/s/941e1d8/podcast/rss",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Word Balloon Comics Podcast",
+  "url": "https://www.spreaker.com/show/3143082/episodes/feed",
+  "lang": "es",
+  "type": "podcast",
+  "category": "series",
+  "country": "CL",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Wundervolle Kinotipps | Der li.wu.-Podcast",
   "url": "https://letscast.fm/podcasts/wundervolle-kinotipps-der-li-wu-podcast-3807e14d/feed",
   "lang": "de",
@@ -932,6 +1053,39 @@
   "country": "DE",
   "score": 0.6,
   "encontrada": "2026-11-16",
+  "aprovar": false
+ },
+ {
+  "name": "Kino+",
+  "url": "https://www.rocketbeans.tv/podcasts/kino_plus.xml",
+  "lang": "de",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "SERIEAMORE – Der Italien-Fussball-Podcast",
+  "url": "https://serieamore.podigee.io/feed/mp3",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Serie A Audio Experience by IFTV",
+  "url": "https://anchor.fm/s/2728ce00/podcast/rss",
+  "lang": "de",
+  "type": "podcast",
+  "category": "series",
+  "country": "DE",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
   "aprovar": false
  },
  {
@@ -1309,6 +1463,17 @@
   "aprovar": false
  },
  {
+  "name": "Popcorn Junkies Movie Reviews",
+  "url": "https://feeds.acast.com/public/shows/68d59d60730cf5a747e6689e",
+  "lang": "en",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "GB",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Super Otto - Cinema, serie tv e cultura pop",
   "url": "https://anchor.fm/s/e5714ec8/podcast/rss",
   "lang": "it",
@@ -1584,6 +1749,17 @@
   "aprovar": false
  },
  {
+  "name": "映画ひとり下剋上",
+  "url": "https://anchor.fm/s/115998e08/podcast/rss",
+  "lang": "ja",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "JP",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Drapeau rouge : le podcast cinéma",
   "url": "https://anchor.fm/s/106805848/podcast/rss",
   "lang": "pt",
@@ -1705,6 +1881,39 @@
   "aprovar": false
  },
  {
+  "name": "CRWN CINEMA Podcast",
+  "url": "https://anchor.fm/s/10f32dc90/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "PT",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Cinema de Gémeo",
+  "url": "https://anchor.fm/s/e9e07dd0/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "PT",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Bilhetes Para O Cinema",
+  "url": "https://anchor.fm/s/2f2379d4/podcast/rss",
+  "lang": "pt",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "PT",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
   "name": "Культура кино",
   "url": "https://cloud.mave.digital/40358",
   "lang": "ru",
@@ -1757,6 +1966,39 @@
   "country": "RU",
   "score": 0.6,
   "encontrada": "2026-11-02",
+  "aprovar": false
+ },
+ {
+  "name": "Кино Огонь",
+  "url": "https://cloud.mave.digital/35138",
+  "lang": "ru",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "RU",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Кино, попкорн и диалоги",
+  "url": "https://cloud.mave.digital/64836",
+  "lang": "ru",
+  "type": "podcast",
+  "category": "cinema",
+  "country": "RU",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
+  "aprovar": false
+ },
+ {
+  "name": "Топ за свои деньги: подкаст про игры, кино и сериалы",
+  "url": "https://cloud.mave.digital/53998",
+  "lang": "ru",
+  "type": "podcast",
+  "category": "series",
+  "country": "RU",
+  "score": 0.6,
+  "encontrada": "2026-11-23",
   "aprovar": false
  },
  {

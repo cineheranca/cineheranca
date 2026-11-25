@@ -1,5 +1,57 @@
 [
  {
+  "id": "c9c7ba0ff927a5ba",
+  "title": "Lionsgate Play Casts AI Actor Yug R.Ai in Series ‘Eklavya,’ Partners With Google Cloud (EXCLUSIVE)",
+  "summary": "Streaming platform Lionsgate Play has cast an AI performer, Yug R.Ai, as the lead of “Eklavya,” a mythological series that is the platform’s first AI-led original. Rohit Jain, founder and CEO of Lionsgate Play, presented a first look at the show and introduced Yug R.Ai as the company’s first AI actor. The series is in…",
+  "link": "https://variety.com/2026/tv/news/lionsgate-play-ai-actor-eklavya-ai-led-original-1236957605/",
+  "image": "https://variety.com/wp-content/uploads/2026/11/Ekalavya.jpg",
+  "published": "2026-11-25T06:15:00+00:00",
+  "source": "Variety",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "8ee0fe9973dc2163",
+  "title": "Lionsgate Play Sets ‘Eklavya’ As First AI-Led Series For Tiger TV",
+  "summary": "EXCLUSIVE: Lionsgate Play is setting its first AI-led original series, Eklavya. The series, based around Indian mythology, will feature Yug R.Ai, the AI actor character that Lionsgate Play CEO Rohit Jain recently unveiled. Above you can see a first-look image. It is based around an archer character from the Hindu epic…",
+  "link": "https://deadline.com/2026/11/lionsgate-play-eklavya-ai-series-tiger-tv-1237232555/",
+  "image": "https://deadline.com/wp-content/uploads/2026/11/Eklavya-Creative.png",
+  "published": "2026-11-25T06:15:00+00:00",
+  "source": "Deadline",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "d0902aef1113df97",
+  "title": "Post your questions for Danny Boyle",
+  "summary": "The Trainspotting, Slumdog Millionaire and 28 Days Later director is preparing to launch his biopic of Rupert Murdoch’s early years as a British tabloid mogul. In anticipation of its New Year release, the director will be taking your questions You name it, Danny Boyle has probably directed a movie about it. He’s done…",
+  "link": "https://www.theguardian.com/film/2026/nov/25/post-your-questions-for-danny-boyle",
+  "image": "https://i.guim.co.uk/img/media/d82e07ed99a4e6709c7980e79a10c6d4abf709cb/762_200_4081_3262/master/4081.jpg?width=140&quality=85&auto=format&fit=max&s=6a5d56be7a45f37e739a9abb4ed7655c",
+  "published": "2026-11-25T06:00:07+00:00",
+  "source": "The Guardian · Film",
+  "country": "GB",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
+  "id": "3a65ac5a5c904943",
+  "title": "‘Hershey’ Review: In a Sugary Sweet Biopic, Finn Wittrock Plays the Candy Man Who Turned Chocolate Into an American Empire",
+  "summary": "At \"Hershey,\" you feel like you’re 10 years old again, which is both a virtue and not. The film is a paint-by-numbers storybook biopic for the chocolate-loving child in us all – or, maybe, for an audience the movie treats as if it needed its hand held.",
+  "link": "https://variety.com/2026/film/reviews/hershey-review-finn-wittrock-1236957567/",
+  "image": "https://variety.com/wp-content/uploads/2026/11/Hershey_Stills-for-Approval_230_Color-Treated.png",
+  "published": "2026-11-25T05:52:53+00:00",
+  "source": "Variety",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
   "id": "0152d1d87d0db7fe",
   "title": "Amanda Seyfried Reveals ‘You Can See Everything’ Script Required ‘Five-Factor Authentication App’ to Access",
   "summary": "The cat’s out of the bag. Amanda Seyfried not only appears in Nathan Fielder and Lance Oppenheim’s Elizabeth Holmes documentary “You Can See Everything,” but her winning turn as Holmes (and herself) may make history as the first doc performance to win an acting Oscar (and perhaps the first to win an Oscar and an […]",
@@ -663,6 +715,19 @@
   "category": "series"
  },
  {
+  "id": "d16a4e730cd58024",
+  "title": "How two German directors fought back when their film was stolen — and won an International Emmy Award",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMGlWNHB5ZnNwWGUwX04yN3pZSVdJV0JvUWRwMkxTYmIweXp4UEpHRDZrVVRJVk5kVjFOVlFWUFY5UXQwZ2RWTGF2Q1lOOGlzOUFOdE5DNlJTVVU2M2lySUxYMVNvdDhYZzZJXzhzMnRxZlgta2FBNF9wNkNsZFF3eHRNV2tndWxjcnRRQ21icW1xOWhQbUgxc1BFLWVQdHM?oc=5",
+  "image": null,
+  "published": "2026-11-25T00:54:09+00:00",
+  "source": "DW.com",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
   "id": "c7351e7cbda7fd53",
   "title": "Philip Rosenberg, Oscar-Winning Production Designer for ‘All That Jazz,’ Dies at 91",
   "summary": "Philip Rosenberg, a production designer and art director who was part of the team that won the art direction-set decoration Oscar for “All That Jazz,” died Oct. 28 in West Palm Beach, Florida. He was 91. His death was announced by his nephew, Alan Rosenberg. Rosenberg’s first film job was as design assistant on the […]",
@@ -1023,6 +1088,19 @@
   "source": "Deadline",
   "country": "US",
   "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "b838d036a111f783",
+  "title": "My Sweet Lie, la puntata del 25 novembre in streaming",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU0QtX1VnVGJ2UmJFdEN5d3BfaXNYN2s1c2lNOVVvaS1pNG1LR2hzbi1Od1N1MnVqVzJncmpQWklKOFh1SjEwVndfeExDaHN6WF9YT2ZCbEFxQ3RlZS1PNHJEek1nUkp6bGJCYzFHcDY4RlBBbUlhLWxBckFON2FoVlZub2xiWWlGS0lRVkgtVFg2UzBOc0NSXzRORFdZS0VPWGluTkg1amJ1eW5MTEF5UHVFWmxvSWJNRHNTdm9HSjRBT01kNVhKSHZzSXk4UDI2bnlyemhLeENPbGtvX1dEZ3poWmF5Z9IBqAFBVV95cUxNVjd4Y25qS0ZYTDBHallpTEp0U1Q4SERNaVhrcGozNUJkTmcyWU1fYTFXY3h5YlpmR1FkaTc0ZlRHTzk0R1hvc25kWUo4bUc0eEVvbHJOQ09TSW0wbUxHS3FRRGVRRG5tTEMwdFg4c2F0Q1EwM1FvbWcwRnZUck11cXR6Q192aTlCZl9NU1BWQk5EVzRkRTZWUDFsWTdJX3AzZjlXU3FwS1o?oc=5",
+  "image": null,
+  "published": "2026-11-24T23:04:55+00:00",
+  "source": "Mediaset Infinity",
+  "country": "IT",
+  "lang": "it",
   "kind": "news",
   "category": "series"
  },
@@ -1857,6 +1935,19 @@
   "lang": "en",
   "kind": "news",
   "category": "series"
+ },
+ {
+  "id": "b1d6f7884ea30c44",
+  "title": "Film Review | ‘Ink’ Leaves a Residue of Frustration",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZGtCWDI2T1hvT004VkVXR0F2dFRBdjBuZ1JYNXF4Q2plNDJKYXNkU3FERTdUeWhnQUZITUpqMnMwVTV3aFg1VTkwQU5XVHBFZ05kU1lIZ1pWNV9SbXA4ZllwY0hobVdQWjdVQzdfZFhzTnV4VkxRY1F1X1RSeURVR0dRODdEZXcyajY2cnhqUXY?oc=5",
+  "image": null,
+  "published": "2026-11-24T20:15:53+00:00",
+  "source": "The Santa Barbara Independent",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
  },
  {
   "id": "371cf497ef10f1e4",
@@ -3042,6 +3133,19 @@
   "category": "cinema"
  },
  {
+  "id": "3dd45443a6b4ee97",
+  "title": "Torino Film Festival 2026, i look sul red carpet di apertura, da Travolta a Ambra Angiolini. FOTO",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzJrY09UWnFwSWRHNHdRUXdtTklkOWJGdlB1Ukcwb0t1N2R3YmdPam94MDRVZ0RJM2gySC13NGtsZDJhWG9uWXVmSDBtaXlpS0cxOFR6SzdLd1dMY1lEMzd6Yzd2WENNVk9nQ0szNzNsU2JFbGRFYUpFZlMxNi1oc0ZSVl9NTHRSb0x5a0pn?oc=5",
+  "image": null,
+  "published": "2026-11-24T17:35:10+00:00",
+  "source": "Sky TG24",
+  "country": "IT",
+  "lang": "it",
+  "kind": "news",
+  "category": "cinema"
+ },
+ {
   "id": "b6df8658f9334815",
   "title": "Los detalles del nuevo streaming del Conicet: \"Expedición Inka\"",
   "summary": "",
@@ -4041,6 +4145,19 @@
   "lang": "en",
   "kind": "news",
   "category": "series"
+ },
+ {
+  "id": "94dd6be13c11194f",
+  "title": "Box Office: 'Hunger Games: Sunrise on Reaping' Has Record Monday",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdlp2VXBpRlhTWlRBV19LaUVkaFFtVnBYSDE5RFhhcGlhb0F5YThmVlZFMG5XN1R5QU5YS1diMWQ5eGZqU01ic0dhQjZiWGFPbmpDN1EtQndxeVdjY19nRHJuSkFGdzVnNUJkYlNBdXpEdTYyYjJqb1hiXzRueDhlYmpFckFreV9idVdVbTJ6a2RvOW5wamVLVW9B?oc=5",
+  "image": null,
+  "published": "2026-11-24T15:25:00+00:00",
+  "source": "Deadline",
+  "country": "US",
+  "lang": "en",
+  "kind": "news",
+  "category": "cinema"
  },
  {
   "id": "250d07907de20690",
@@ -5768,6 +5885,19 @@
   "source": "Collider",
   "country": "US",
   "lang": "en",
+  "kind": "news",
+  "category": "series"
+ },
+ {
+  "id": "b10585bda5fdb050",
+  "title": "BR24",
+  "summary": "",
+  "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aVjNDOWg2OFQ0N2FYWWl1czRRV183SFZBUEdwWjZWNEowVEttTnlmRkJoZDdDQU5uVDFkUGlPVHd3ZFp5XzJiNVUyZ0RGVnBHUVB6SnFiUlJFeHJlcG85SFVoYmN6QUZoejhlOHFPWEFtWkJoNTk4?oc=5",
+  "image": null,
+  "published": "2026-11-24T10:21:24+00:00",
+  "source": "BR",
+  "country": "DE",
+  "lang": "de",
   "kind": "news",
   "category": "series"
  },
@@ -11569,135 +11699,5 @@
   "lang": "en",
   "kind": "news",
   "category": "cinema"
- },
- {
-  "id": "89b0852670a1c66b",
-  "title": "‘Lil Kev’ Ends Up Behind Bars In Season 2 Trailer For Kevin Hart Animated Series",
-  "summary": "Lil Kev is in big trouble. After leading cops on a slow-speed chase, 12-year-old Kev ends up in the slammer (juvenile detentation actually) in the official trailer for Season 2 of the Kevin Hart animated series Lil Kev. Set in 1993 North Philadelphia, Lil Kev follows twelve-year-old Kev (Hart) as his enormous ambition…",
-  "link": "https://deadline.com/2026/11/kevin-hart-animated-series-lil-kev-trailer-1237231157/",
-  "image": "https://deadline.com/wp-content/uploads/2026/11/Lil-Kev-trailer.jpg",
-  "published": "2026-11-23T16:00:00+00:00",
-  "source": "Deadline",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "series"
- },
- {
-  "id": "e3b7e0f609dc065d",
-  "title": "Frontline To Premiere ‘One In A Million’ On YouTube Before PBS Broadcast, In A First For Award-Winning Documentary Series",
-  "summary": "EXCLUSIVE: Frontline Features will debut the Oscar-contending documentary One in a Million for free on its YouTube channel ahead of the film’s PBS broadcast, in an unprecedented move. The award-winning feature directed by Itab Azzam and Jack MacInnes will premiere Tuesday, December 1 on YouTube, the PBS app, and…",
-  "link": "https://deadline.com/2026/11/frontline-one-in-a-million-youtube-release-1237231431/",
-  "image": "https://deadline.com/wp-content/uploads/2026/03/One-in-a-Million.png",
-  "published": "2026-11-23T16:00:00+00:00",
-  "source": "Deadline",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "series"
- },
- {
-  "id": "349bb2f9b8365b7a",
-  "title": "Jane Fonda on Documentary ‘Gaslit,’ Trump, and What the Democrats’ Midterm Victory Means for Climate Change",
-  "summary": "The Oscar-winning actress and activist says the world must wean itself off fossil fuels before it's too late.",
-  "link": "https://www.indiewire.com/news/general-news/jane-fonda-trump-democrats-midterm-victory-climate-change-1235230020/",
-  "image": null,
-  "published": "2026-11-23T16:00:00+00:00",
-  "source": "IndieWire",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "ea604dd4f8cff595",
-  "title": "In 87 (!) Ländern auf Platz 1: 2022 setzte sich ihr Film gegen \"Dune\" und Steven Spielberg durch – jetzt rockt ihr neues Werk die Streaming-Charts",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kX2hCdDFIdmZPV01VYVdIck5rdkoxMTNQRC1RcGp0TjJWV2NVb3lQWUpvbHhGMmJWQzNWSXlzeFNEM1I5aXhTWm1SX2F3bWdiOEJhNEliU0oxUmZuT3I0Zl9kVQ?oc=5",
-  "image": null,
-  "published": "2026-11-23T16:00:00+00:00",
-  "source": "Filmstarts",
-  "country": "DE",
-  "lang": "de",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "51fe8b68f3d73a5a",
-  "title": "Día del Cine Chileno 2026: funciones gratis y a $1.000 en todo el país",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWHhRRXJRZnhQa2J2LUdOSVZrWFFDNFZuTklwWWZhaDVVRHFpZVpGY21raFpQWEJGdDM2QVhQYWxhTllfYUY2Uk40S1F5SDhFLTAwell3OE9DSzNld1MtbzVnWUNoQzRFMUJ5YlRaaENOeVhQclhrWUZDZV9FUjFyb2Z6WkU3TUc1YndIN245ck8yVXdxTWU4NWhBMEpLMW5UckxfWUx0UmZrblh1MzNLRFRGWUJFemNxbkFVWURn?oc=5",
-  "image": null,
-  "published": "2026-11-23T15:56:06+00:00",
-  "source": "www.diarioeldia.cl",
-  "country": "CL",
-  "lang": "es",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "19623804fee38aa7",
-  "title": "Record contrata Sophia Valverde e Oscar Magrini para primeira novela bíblica vertical",
-  "summary": "A Record vai entrar no mercado de novelas verticais . Nesta semana, a Seriella, produtora de tramas da emissora, vai começar a gravar a sua primeira produção do gênero, recontando histórias da Bíblia. A primeira será sobre Débora, única mulher juíza e profetisa de Israel Leia mais (11/23/2026 - 12h55)",
-  "link": "https://redir.folha.com.br/redir/online/ilustrada/rss091/*https://f5.folha.uol.com.br/colunistas/outro-canal/2026/11/record-contrata-sophia-valverde-e-oscar-magrini-para-primeira-novela-biblica-vertical.shtml",
-  "image": null,
-  "published": "2026-11-23T15:55:00+00:00",
-  "source": "Folha · Ilustrada",
-  "country": "BR",
-  "lang": "pt",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "b123e35f824ca600",
-  "title": "Tutto per la mia famiglia 2, puntata oggi 23 novembre",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQVlg4UVNYenBQVFQ5endmV1lZMFRqdHM2cWZITFp3X3hvYktfMmFBNjRlc3Zqb3pCdFFlckpGLWY2TFVKV3BhR2N5alZqUnZ1cUFNenB4SHdrNG9FdjBxNF80cW5aN0VYQjcwR2dzSEIxQ0Q1SWxvMlB0MmVxVWo4bHEzS2l1RXQ4dzJreWliRl9ndlB3Z2l3OWxRdTg1VUJuWWw2TGVJdFMzdTBmT3E5NF82RmJSQ1JhanFxRVRBZWFhTnFkXzBQc2tuZFFTN01iemVKYi1pMDRxX3FneG1HRFlCSjhLLW52QmJhRk1fSEhsRXFzeGNzVnVYbzAtd04ySkg5OWVtQdIBqAFBVV95cUxOOTEzTGpNV2RITW93M3NqdWFwdVU1bG9ENlRKejM1amFMbkNkNzRPZi1hckdCaVlCVElGMTluLVpEdU9kZ3Z3bXhRakhKa09VQVZnaG9TdGJQLW0yTzJQaWNBTFhFNEtvdzQza09OWjVGaFFpekUwd2hVVlZOZ2plYUVMSVNVaU9QVHZOOEd6cGxhODZ4X2cwSjNqWklKNEx6WDBoVS1XY3M?oc=5",
-  "image": null,
-  "published": "2026-11-23T15:54:34+00:00",
-  "source": "Mediaset Infinity",
-  "country": "IT",
-  "lang": "it",
-  "kind": "news",
-  "category": "series"
- },
- {
-  "id": "7fe135dfdf1c690a",
-  "title": "Seminário Internacional discute Literatura e Cinema de Resistência",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN3JEVk1hS3VRWXhyb19rMVdXM0hYd1NSS1FqVDlJUkt0cHcwYWVrX29hNzVoalM3TTl3QXdseWdLZVhSRkJwUTdERmJiU3M5dGVrRHRYOTdaclM3d3pwZnpReldVcEtEV3U0UUstTlVQX2RtNWkxV3N4WVB4ajZkRWc4OU9nY3N6RGtPNWdrZlhNSVBtcVJjMUNEWnRtQWkwajZBaFRUUzNUY1JFUHFBUmt3?oc=5",
-  "image": null,
-  "published": "2026-11-23T15:54:33+00:00",
-  "source": "Ufopa",
-  "country": "BR",
-  "lang": "pt",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "7d7737c8aa1dfe7d",
-  "title": "Most Likely To...? The Cast of The Hunting Wives Plays Collider Superlatives!",
-  "summary": "For the first time ever, we have a competitive game of Superlatives with the cast of The Hunting Wives. Dermot Mulroney demands that we keep score, Brittany Snow discusses her arc from child stardom to adulthood, Malin Akerman brings the fun and Jamie Ray Newman brings the honesty. You don't want to miss it!",
-  "link": "https://collider.com/video/most-likely-to-the-cast-of-the-hunting-wives-plays-collider-superlatives/",
-  "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/superlatives-hunting-wives.jpg",
-  "published": "2026-11-23T15:51:14+00:00",
-  "source": "Collider",
-  "country": "US",
-  "lang": "en",
-  "kind": "news",
-  "category": "cinema"
- },
- {
-  "id": "80d9e2d0909738fa",
-  "title": "Streaming hecho en Santa Fe: ONDA, Vorly y Ahí, Tené! entre los 60 canales más vistos del país",
-  "summary": "",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUmZkTW45Z1haRVdTZjVaaUpDd2IzVU1EdUxlOEtJOXBOU1dzVm1JUHVvMy12c0lpODVjN2pnd2o3SGVkNFNMNm0wNXItZHIySFZ4SlJVRmNldDJHcTlxTEMyU1Q4VVdrREFKd3FOV05xbFVxRDB2TkphTmloSWlGTEtINFlDNXlxWDE2eU1oYmpaQVhRZU9wTEM3SDlBcXV3LUhaai00ZXpFNS03WFhZd01xQklMbFhyUnVpV3hZanRJRk0?oc=5",
-  "image": null,
-  "published": "2026-11-23T15:47:45+00:00",
-  "source": "Versión Rosario",
-  "country": "AR",
-  "lang": "es",
-  "kind": "news",
-  "category": "series"
  }
 ]
